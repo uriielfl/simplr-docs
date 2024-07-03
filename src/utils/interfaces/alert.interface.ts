@@ -1,4 +1,4 @@
-import { AlertTypeEnum } from "utils/enums/alert-type-enum";
+import { AlertTypeEnum } from "@/utils/enums/alert-type-enum";
 
 export interface IAlert {
     message: string;

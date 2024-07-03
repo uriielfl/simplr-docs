@@ -1,7 +1,7 @@
 import { Button, Navbar } from '@material-tailwind/react';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
-import logo from 'assets/logo.png';
+import logo from '@/assets/logo.png';
 
 interface IHeader {
   toggleDrawer: () => void;

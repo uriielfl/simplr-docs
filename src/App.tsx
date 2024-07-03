@@ -1,5 +1,5 @@
 import { AlertProvider } from './contexts/alert';
-import { router } from 'routers';
+import { router } from './routers';
 
 import { RouterProvider } from 'react-router-dom';
 

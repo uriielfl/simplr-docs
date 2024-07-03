@@ -1,8 +1,8 @@
 import { Button, CardBody, Typography } from '@material-tailwind/react';
 import { useNavigate } from 'react-router-dom';
 
-import { Container } from 'components/Container';
-import { Layout } from 'components/Layout';
+import { Container } from '@/components/Container';
+import { Layout } from '@/components/Layout';
 
 export const Home = () => {
   const navigate = useNavigate();

@@ -1,5 +1,5 @@
 import { IconButton, Tooltip } from '@material-tailwind/react';
-import { useAlert } from 'hooks/useAlert';
+import { useAlert } from '@/hooks/useAlert';
 import { useState } from 'react';
 import { FaRegCopy } from 'react-icons/fa6';
 import SyntaxHighlighter from 'react-syntax-highlighter';

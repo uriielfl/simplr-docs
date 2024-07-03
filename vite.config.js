@@ -1,24 +1,13 @@
 import { defineConfig } from 'vite';
-import checker from 'vite-plugin-checker';
-
 import react from '@vitejs/plugin-react';
-
-// https://vitejs.dev/config/
+import checker from 'vite-plugin-checker';
+import { resolve } from 'path'; // Importação do módulo path
 export default defineConfig({
-  base: '/simplr-docs/',
-  plugins: [react(), checker({ typescript: false })],
-  resolve: {
-    alias: {
-      components: '/src/components',
-      ampli: '/src/ampli',
-      utils: '/src/utils',
-      pages: '/src/pages',
-      routers: '/src/routers',
-      assets: '/src/assets',
-      services: '/src/services',
-      api: '/src/api',
-      contexts: '/src/contexts',
-      hooks: '/src/hooks',
+    plugins: [react(), checker({ typescript: false })],
+    base: '/simplr-docs',
+    resolve: {
+        alias: {
+            '@': resolve(__dirname, './src'),
+        },
     },
-  },
 });

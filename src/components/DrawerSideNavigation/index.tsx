@@ -10,7 +10,7 @@ import {
 import React, { useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import { NAV_ITEMS } from 'utils/constants/navItems';
+import { NAV_ITEMS } from '@/utils/constants/navItems';
 
 interface IDrawerSideNavigation {
   isOpen: boolean;

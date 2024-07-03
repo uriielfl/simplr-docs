@@ -1,5 +1,6 @@
 {
-  "name": "simplr-doc",
+  "homepage": "https://uriielfl.github.io/simplr-docs/",
+  "name": "simplr-docs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +9,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{js,jsx,tsx,ts}\""
+    "format": "prettier --write \"src/**/*.{js,jsx,tsx,ts}\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.9",
@@ -25,6 +28,7 @@
   },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "@types/node": "^20.14.9",
     "@types/prismjs": "^1.26.4",
     "@types/react": "18.2.19",
     "@types/react-dom": "^18.3.0",
@@ -36,6 +40,7 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
     "sass": "^1.77.6",
     "tailwindcss": "^3.4.4",
     "typescript": "^5.2.2",

@@ -5,9 +5,9 @@ import 'prismjs/themes/prism-okaidia.css';
 import { ReactNode, useCallback, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 
-import { DrawerSideNavigation } from 'components/DrawerSideNavigation';
-import { Footer } from 'components/Footer';
-import { Header } from 'components/Header';
+import { DrawerSideNavigation } from '@/components/DrawerSideNavigation';
+import { Footer } from '@/components/Footer';
+import { Header } from '@/components/Header';
 
 interface ILayout {
   children: ReactNode;

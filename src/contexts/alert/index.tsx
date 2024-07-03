@@ -8,8 +8,8 @@ import {
   useState,
 } from 'react';
 
-import { AlertTypeEnum } from 'utils/enums/alert-type-enum';
-import { IAlert } from 'utils/interfaces/alert.interface';
+import { AlertTypeEnum } from '@/utils/enums/alert-type-enum';
+import { IAlert } from '@/utils/interfaces/alert.interface';
 
 interface IAlertContext {
   alert: IAlert;

@@ -1,13 +1,13 @@
 import { CardBody, List, ListItem, Typography } from '@material-tailwind/react';
 
-import { EXAMPLES } from 'utils/constants/examples';
-import { INTERCEPTOR_CONFIG_DATA_TYPES } from 'utils/constants/interceptors-config-data-type';
+import { EXAMPLES } from '@/utils/constants/examples';
+import { INTERCEPTOR_CONFIG_DATA_TYPES } from '@/utils/constants/interceptors-config-data-type';
 
-import { CodeExample } from 'components/CodeExample';
-import { Container } from 'components/Container';
-import { Layout } from 'components/Layout';
-import { TutorialNavigation } from 'components/TutorialNavigation';
-import { TypeInfo } from 'components/TypeInfo';
+import { CodeExample } from '@/components/CodeExample';
+import { Container } from '@/components/Container';
+import { Layout } from '@/components/Layout';
+import { TutorialNavigation } from '@/components/TutorialNavigation';
+import { TypeInfo } from '@/components/TypeInfo';
 
 export const Interceptors = () => (
   <Layout>

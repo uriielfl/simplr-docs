@@ -1,14 +1,12 @@
 import { CardBody, Typography } from '@material-tailwind/react';
 
-import { EXAMPLES } from 'utils/constants/examples';
+import { EXAMPLES } from '@/utils/constants/examples';
 
-import { CodeExample } from 'components/CodeExample';
-import { Container } from 'components/Container';
-import { Layout } from 'components/Layout';
-import { TutorialNavigation } from 'components/TutorialNavigation';
-import SyntaxHighlighter from 'react-syntax-highlighter';
-import { dracula } from 'react-syntax-highlighter/dist/esm/styles/hljs';
-import { PowerShell } from 'components/PowerShell';
+import { CodeExample } from '@/components/CodeExample';
+import { Container } from '@/components/Container';
+import { Layout } from '@/components/Layout';
+import { TutorialNavigation } from '@/components/TutorialNavigation';
+import { PowerShell } from '@/components/PowerShell';
 
 export const GetStarted = () => (
   <Layout>

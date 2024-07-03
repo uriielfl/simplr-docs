@@ -1,11 +1,11 @@
 import { Typography } from '@material-tailwind/react';
 
-import { EXAMPLES } from 'utils/constants/examples';
+import { EXAMPLES } from '@/utils/constants/examples';
 
-import { CodeExample } from 'components/CodeExample';
-import { Container } from 'components/Container';
-import { Layout } from 'components/Layout';
-import { TutorialNavigation } from 'components/TutorialNavigation';
+import { CodeExample } from '@/components/CodeExample';
+import { Container } from '@/components/Container';
+import { Layout } from '@/components/Layout';
+import { TutorialNavigation } from '@/components/TutorialNavigation';
 
 export const GetMethod = () => (
   <Layout>
