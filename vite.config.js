@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/simplr-docs/',
   plugins: [react(), checker({ typescript: false })],
   resolve: {
     alias: {
