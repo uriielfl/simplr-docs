@@ -16,7 +16,7 @@ import { PutMethod } from '@/pages/PutMethod';
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/simplr-docs">
+    <Route path="/">
       <Route index element={<Home />} />
       <Route path="tutorial">
         <Route path="get-started" element={<GetStarted />} />

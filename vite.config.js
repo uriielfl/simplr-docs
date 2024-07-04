@@ -4,7 +4,7 @@ import checker from 'vite-plugin-checker';
 import { resolve } from 'path'; // Importação do módulo path
 export default defineConfig({
     plugins: [react(), checker({ typescript: false })],
-    base: '/simplr-docs',
+    base: '/',
     resolve: {
         alias: {
             '@': resolve(__dirname, './src'),
