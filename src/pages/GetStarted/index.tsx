@@ -40,7 +40,7 @@ export const GetStarted = () => (
           Installation
         </Typography>
         <Typography variant="paragraph">Install Simplr via npm:</Typography>
-        <PowerShell command={'npm install simplr'}/>
+        <PowerShell command={'npm install simplr-js'}/>
         <Typography variant="h2" className="mt-8 mb-4">
           Simple example
         </Typography>
