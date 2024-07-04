@@ -5,7 +5,7 @@ export const EXAMPLES = {
     InterceptorByEnum,
     IResponseInterceptor,
     IRequestConfig,
-  } from 'simplr';
+  } from 'simplr-js';
   
   export const api = simplr.init('http://localhost:3000/');
   
@@ -19,7 +19,7 @@ export const EXAMPLES = {
   }`,
   GET: {
     one_instance: `
-  import { simplr } from 'simplr';
+  import { simplr } from 'simplr-js';
 
   const api = simplr.init('https://your-api.com');
   const getUsers = async () => {
@@ -27,7 +27,7 @@ export const EXAMPLES = {
   }
   `,
     multiple_instances: `
-  import { Simplr } from 'simplr';
+  import { Simplr } from 'simplr-js';
 
   const api = new Simplr().init('https://your-api.com');
   const anotherApi = new Simplr().init('https://your-second-api.com');
@@ -43,7 +43,7 @@ export const EXAMPLES = {
   },
   POST: {
     one_instance: `
-  import { simplr } from 'simplr';
+  import { simplr } from 'simplr-js';
   import { User } from '@/types';
 
   const api = simplr.init('https://your-api.com');
@@ -52,7 +52,7 @@ export const EXAMPLES = {
   }
       `,
     multiple_instances: `
-  import { Simplr } from 'simplr';
+  import { Simplr } from 'simplr-js';
   import { User } from '@/types';
 
   const api = new Simplr().init('https://your-api.com');
@@ -69,7 +69,7 @@ export const EXAMPLES = {
   },
   PUT: {
     one_instance: `
-  import { simplr } from 'simplr';
+  import { simplr } from 'simplr-js';
   import { User } from '@/types';
 
   const api = simplr.init('https://your-api.com');
@@ -79,7 +79,7 @@ export const EXAMPLES = {
   }
       `,
     multiple_instances: `
-  import { Simplr } from 'simplr';
+  import { Simplr } from 'simplr-js';
   import { User } from '@/types';
   
   const api = new Simplr().init('https://your-api.com');
@@ -96,7 +96,7 @@ export const EXAMPLES = {
   },
   PATCH: {
     one_instance: `
-  import { simplr } from 'simplr';
+  import { simplr } from 'simplr-js';
   import { User } from '@/types';
 
   const api = simplr.init('https://your-api.com');
@@ -106,7 +106,7 @@ export const EXAMPLES = {
   }
       `,
     multiple_instances: `
-  import { Simplr } from 'simplr';
+  import { Simplr } from 'simplr-js';
   import { User } from '@/types';
 
   const api = new Simplr().init('https://your-api.com');
@@ -123,7 +123,7 @@ export const EXAMPLES = {
   },
   DELETE: {
     one_instance: `
-  import { simplr } from 'simplr';
+  import { simplr } from 'simplr-js';
 
   const api = simplr.init('https://your-api.com');
 
@@ -132,7 +132,7 @@ export const EXAMPLES = {
   }
       `,
     multiple_instances: `
-  import { Simplr } from 'simplr';
+  import { Simplr } from 'simplr-js';
 
   const api = new Simplr().init('https://your-api.com');
   const anotherApi = new Simplr().init('https://your-second-api.com');
@@ -148,7 +148,7 @@ export const EXAMPLES = {
   },
   CACHE: {
     setCache: `
-  import { SimplrResponse } from 'simplr';
+  import { SimplrResponse } from 'simplr-js';
   import { api } from '@/api';
 
   getUsers().then(async (res: SimplrResponse) => {
@@ -212,7 +212,7 @@ export const EXAMPLES = {
       InterceptorByEnum,
       simplr,
       IRequestConfig,
-  } from 'simplr';
+  } from 'simplr-js';
   
   export const api = simplr.init('https://your-api.com/');
   
