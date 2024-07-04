@@ -1,6 +1,6 @@
 import {
   Route,
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
 } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ import { PatchMethod } from '@/pages/PatchMethod';
 import { PostMethod } from '@/pages/PostMethod';
 import { PutMethod } from '@/pages/PutMethod';
 
-export const router = createHashRouter(
+export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/">
       <Route index element={<Home />} />
